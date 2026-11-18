@@ -1,0 +1,35 @@
+{
+  "modelo_elegido": "secuencial",
+  "seleccion": "F1 macro de validacion",
+  "semilla": 42,
+  "proporcion": {
+    "entrenamiento": 0.6,
+    "validacion": 0.2,
+    "prueba": 0.2
+  },
+  "preprocesamiento": "Imagen 8x8; intensidades originales 0..16 divididas entre 16; vector de 64 valores.",
+  "tolerancia_recarga": 1e-06,
+  "resultados": {
+    "secuencial": {
+      "f1_macro_validacion": 0.9831196086088092,
+      "parametros": 6570,
+      "epocas_efectivas": 68
+    },
+    "funcional": {
+      "f1_macro_validacion": 0.9805803269088426,
+      "parametros": 6570,
+      "epocas_efectivas": 65
+    }
+  },
+  "prueba_final": {
+    "accuracy": 0.9722222222222222,
+    "f1_macro": 0.9719126144598382
+  },
+  "verificacion_recarga": {
+    "muestras": 5,
+    "diferencia_maxima": 0.0,
+    "tolerancia": 1e-06,
+    "correcta": true
+  },
+  "preprocesamiento_interfaz": "v2: recorte de tinta (>20), ajuste proporcional a un maximo de 6x6, centrado en lienzo negro 8x8; sin inversion de color; escala final 0..1."
+}

@@ -1,0 +1,32 @@
+{
+  "modelo_congelado": "mejor_modelo.keras",
+  "semilla_seleccion_30": 2026,
+  "semilla_ruido": 2027,
+  "ruido_gaussiano_sigma": 0.15,
+  "version_preprocesamiento_interfaz": "v2",
+  "muestra_ruido": 30,
+  "accuracy_original_30": 0.9666666666666667,
+  "accuracy_con_ruido_30": 0.9,
+  "accuracy_prueba_completa": 0.9722222222222222,
+  "dibujos_propios": {
+    "cantidad": 5,
+    "accuracy": 0.2,
+    "avisos_baja_confianza": 2,
+    "por_digito": {
+      "0": 0,
+      "1": 1,
+      "2": 0,
+      "3": 2,
+      "4": 2,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "completo_dos_por_digito": false
+  },
+  "intentos_transformacion_anterior_conservados": 6,
+  "diagnostico": "Las exactitudes pueden diferir porque los dibujos del usuario y el ruido no siguen exactamente la distribución de las imágenes de prueba. Una mejora para otra versión sería entrenar con aumentos moderados de traslación, grosor y ruido.",
+  "nota": "Análisis final; el modelo y las reglas no se reajustaron."
+}

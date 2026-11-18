@@ -1,0 +1,7 @@
+fecha_hora,etiqueta_indicada,prediccion,probabilidad_maxima,aviso_baja_confianza,resultado
+2026-11-17T22:03:13-05:00,5,1,0.99878138,0,incorrecto
+2026-11-17T22:03:39-05:00,5,8,0.73240858,0,incorrecto
+2026-11-17T22:15:41-05:00,1,1,0.99054635,0,correcto
+2026-11-17T22:16:12-05:00,1,3,0.98591161,0,incorrecto
+2026-11-17T22:18:01-05:00,3,7,0.96396816,0,incorrecto
+2026-11-17T22:18:13-05:00,3,7,0.87891191,0,incorrecto
